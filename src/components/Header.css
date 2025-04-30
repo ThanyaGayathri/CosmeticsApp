@@ -1,0 +1,128 @@
+.top-banner {
+  background-color: #f9e6ff; /* Light pink-violet */
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+}
+
+.download-btn {
+  background: linear-gradient(90deg, #ff80bf, #b266ff); /* Pink to violet */
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  cursor: pointer;
+  border-radius: 20px;
+  font-weight: bold;
+  transition: transform 0.2s ease;
+}
+
+.download-btn:hover {
+  transform: scale(1.05);
+}
+
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: white;
+}
+
+.left-section {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.brand-name {
+  color: #800080; /* Deep violet */
+  margin: 0;
+  font-size: 10rem; 
+  font-style: italic; 
+  font-weight: bold;   
+  font-family: 'Georgia', serif;
+  
+}
+
+.nav-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #f2f2f2; /* light grey */
+  flex-wrap: wrap;
+}
+
+.nav-left, .nav-right {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+/* Common button styles */
+.nav-button,
+.auth-button {
+  padding: 8px 16px;
+  margin: 5px 8px;
+  border: none;
+  border-radius: 25px;
+  font-weight: bold;
+  cursor: pointer;
+  text-decoration: none;
+  transition: transform 0.2s ease;
+}
+
+/* Navigation items (span buttons) */
+.nav-button {
+  background: linear-gradient(90deg, #f7a5f7, #a5b8f7); /* Pink to light blue */
+  color: white;
+}
+
+.nav-button:hover {
+  transform: scale(1.05);
+}
+
+/* Auth buttons (login/signup) */
+.auth-button {
+  background: linear-gradient(90deg, #d76bff, #6c5ce7); /* Violet shades */
+  color: white;
+}
+
+.auth-button:hover {
+  transform: scale(1.05);
+}
+
+.search-bar {
+  display: flex;
+  flex: 1;
+  max-width: 400px;
+  gap: 5px;
+}
+
+.search-bar input {
+  width: 100%;
+  padding: 6px;
+}
+
+.search-bar button {
+  padding: 6px 10px;
+  cursor: pointer;
+}
+
+.right-section span {
+  margin-left: 15px;
+  cursor: pointer;
+}
+
+.nav-menu span,
+.nav-menu .nav-link {
+  cursor: pointer;
+  color: #333;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.nav-menu .nav-link:hover {
+  text-decoration: underline;
+}

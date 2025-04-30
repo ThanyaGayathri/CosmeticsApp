@@ -1,0 +1,29 @@
+.offer-banner-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff0f5;
+    padding: 40px 0; /* More vertical space */
+  }
+  
+  .offer-banner-box {
+    width: 90%;
+    max-width: 600px; /* Moderate size for wide screens */
+    aspect-ratio: 4 / 3; /* Maintain proportional box */
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .offer-banner-image {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain; /* Prevents cutting of the image */
+    transition: opacity 0.5s ease-in-out;
+  }
+  

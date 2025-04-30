@@ -1,0 +1,82 @@
+/* OrderPage.css */
+
+.order-page-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right, #ff9a9e, #a1c4fd, #8a2be2); /* Pink to Blue to Violet gradient */
+  min-height: 100vh;
+  padding: 30px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.order-form {
+  background: white;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  padding: 30px;
+  max-width: 500px;
+  width: 100%;
+}
+
+.order-title {
+  font-size: 28px;
+  color: #8a2be2; /* Violet text for title */
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.input-group {
+  margin-bottom: 20px;
+}
+
+.label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: #6a0572; /* Dark Pink for labels */
+}
+
+.input {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #e1bee7; /* Light violet border */
+  border-radius: 10px;
+  font-size: 16px;
+  background-color: #f3e5f5; /* Light pink background */
+}
+
+.input:focus {
+  border: 2px solid #8a2be2; /* Violet focus border */
+}
+
+.button-group {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.buy-button {
+  background-color: #ff69b4; /* Pink button */
+  color: white;
+  padding: 12px 25px;
+  font-size: 16px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.buy-button:hover {
+  background-color: #ff1493; /* Darker pink on hover */
+}
+
+.success-message {
+  margin-top: 25px;
+  padding: 15px;
+  background-color: #d1c4e9; /* Soft violet background */
+  border: 2px solid #8441c2; /* Violet border */
+  border-radius: 10px;
+  color: #93389a; /* Dark pink for success message text */
+  text-align: center;
+  font-weight: bold;
+}
